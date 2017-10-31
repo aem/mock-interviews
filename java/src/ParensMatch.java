@@ -1,4 +1,7 @@
+import java.util.Stack;
+
 public class ParensMatch {
+
 
   public static void main(String[] args) {
     if (!parensMatch("")) throw new AssertionError("empty string should validate");
@@ -13,6 +16,16 @@ public class ParensMatch {
    * @return whether or not the given string has matching parentheses
    */
   static boolean parensMatch(String str) {
-    return false;
+    Stack<Character> parens = new Stack<Character>();
+    for (char c : str.toCharArray()) {
+      if (c == '[') {
+        parens.push(']');
+      } else if (c == '(') {
+        parens.push(')');
+      } else if (parens.isEmpty() || parens.pop() != c) {
+        return false;
+      }
+    }
+    return parens.isEmpty();
   }
 }
