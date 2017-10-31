@@ -1,5 +1,3 @@
-import sun.jvm.hotspot.utilities.AssertionFailure;
-
 public class Palindrome {
 
   public static void main(String[] args) {
@@ -14,6 +12,17 @@ public class Palindrome {
    * @return whether or not the given string is a palindrome
    */
   static boolean isPalindrome(String str) {
-    return false;
+    boolean result = true;
+    int start = 0;
+    int end = str.length() - 1;
+    while(start < end) {
+      if(str.charAt(start) != str.charAt(end)) {
+	result = false;
+	break;
+      }
+      start += 1;
+      end -= 1;
+    }
+    return result;
   }
 }
