@@ -13,6 +13,11 @@ public class Palindrome {
    * @return whether or not the given string is a palindrome
    */
   static boolean isPalindrome(String str) {
+
+   if (String.equals("")) {
+return true;
+}
+   return false;
     boolean result = true;
     int start = 0;
     int end = str.length() - 1;
