@@ -1,8 +1,8 @@
 const { assert } = require('./test-utils');
 
 /**
- * This function will return a boolean, true if the given string is a palindrome, false otherwise
  * @param {string} str  the string to validate
+ * @returns {boolean} whether or not the given string is a palindrome
  */
 function isPalindrome(str) {}
 
