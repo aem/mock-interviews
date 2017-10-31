@@ -18,9 +18,9 @@ public class Palindrome {
     int end = str.length() - 1;
     while(start < end) {
       if(str.charAt(start) != str.charAt(end)) {
-	result = false;
-	break;
-      }
+	    result = false;
+	    break;
+    }
       start += 1;
       end -= 1;
     }
