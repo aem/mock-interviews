@@ -70,3 +70,19 @@ remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To github.com:MY_USERNAME/practical-git
    8a5b2fd..29d9916  master -> master
 ```
+
+#### 5. Submit a request to merge your code
+
+In order to actually get your code back into the original project, you have to submit what's called a "Pull Request," a request for the project owner to "pull" the changes you've made on your fork back into the original project. To do this, navigate to the GitHub page for your fork (should be https://github.com/YOUR_USERNAME/practical-git).
+
+At the top you should see a yellow bar prompting you to create a pull request, click on the "Compare and Pull Request" button.
+
+On the next page, put in a title, a brief description of your changes (in this case, your solution), and click "Create Pull Request"!
+
+#### 6. Project Owner Merges Code
+
+On co-op you'll be doing this yourself once someone else reviews your code, but in open source projects the project owner is in charge of merging. In fact, you likely will not even have permissions to merge the PR unless you've been added as a contributor.
+
+In this stage you may have to resolve "merge conflicts," when two people modify the same code and git can't tell Whose Code Is It Anyway. We can walk through this in person as it's a little complex to cover in this README.
+
+#### 7. That's it! You're all set!
