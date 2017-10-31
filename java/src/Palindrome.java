@@ -1,5 +1,4 @@
 import sun.jvm.hotspot.utilities.AssertionFailure;
-
 public class Palindrome {
 
   public static void main(String[] args) {
@@ -14,12 +13,16 @@ public class Palindrome {
    * @return whether or not the given string is a palindrome
    */
   static boolean isPalindrome(String str) {
-    int half = str.length() / 2;
-    int i = 0;
     boolean result = true;
-
-    for (int j = half, j < str.length(); j++) {
-      result = str.charAt(i) == str.charAt(j) && result;
+    int start = 0;
+    int end = str.length() - 1;
+    while(start < end) {
+      if(str.charAt(start) != str.charAt(end)) {
+	    result = false;
+	    break;
+    }
+      start += 1;
+      end -= 1;
     }
     return result;
   }
