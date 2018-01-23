@@ -1,3 +1,21 @@
+# FOR CCIS FELLOWS - REMOVE THIS SECTION AFTER FORKING
+Congrats on being selected as a fellow! Here's the practical Git lesson I wrote for the Fall 2017 semester. It was requested I make it repeatable for future semesters, so here we are. I'm comfortable maintaining this as long as GitHub is around (if you're reading this after that point...sorry ¯\\\_(ツ)_/¯).
+
+### Maintenance
+If there's something in the README that you or your class found confusing, please PR changes back into THIS repo (not your forked one) so that future semesters have the new version of the README.
+
+If you'd like to add new questions to the project, you can do that too, just be mindful that it should be easy enough that students can finish it in a reasonable time in class. Also please add stubs and tests for all 3 languages, not just your favorite language.
+
+### Usage
+In order to use this for your class, just:
+
+1. Fork the repo!
+2. Remove this section from the README
+3. Send YOUR link out to your students 1-2 days before class asking them to complete the tasks in [the setup section](/#setup)
+4. In class, have them walk through the steps below to answer a practice interview question, and that's it!!
+
+# FOR CCIS FELLOWS - REMOVE THE PREVIOUS SECTION AFTER FORKING
+
 # CS1210 Practical Git Lesson
 
 Welcome to Practical Git! Today we're going to practice working using git and GitHub the way they're used in the real world. My instructions will assume you're using the command line (using an app like **Terminal** or **iTerm**). You can also use a git GUI like SourceTree or GitHub Desktop, though you may have to search the Internet for instructions on how to use those.
