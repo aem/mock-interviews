@@ -1,5 +1,5 @@
 # FOR CCIS FELLOWS - REMOVE THIS SECTION AFTER FORKING
-Congrats on being selected as a fellow! Here's the practical Git lesson I wrote for the Fall 2017 semester. It was requested I make it repeatable for future semesters, so here we are. I'm comfortable maintaining this as long as GitHub is around (if you're reading this after that point...sorry ¯\_(ツ)_/¯).
+Congrats on being selected as a fellow! Here's the practical Git lesson I wrote for the Fall 2017 semester. It was requested I make it repeatable for future semesters, so here we are. I'm comfortable maintaining this as long as GitHub is around (if you're reading this after that point...sorry ¯\\\_(ツ)_/¯).
 
 ### Maintenance
 If there's something in the README that you or your class found confusing, please PR changes back into THIS repo (not your forked one) so that future semesters have the new version of the README.
