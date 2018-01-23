@@ -1,1 +1,6 @@
 out/
+.vscode
+.idea
+npm-debug.log
+*.pyc
+*.iml
