@@ -13,6 +13,6 @@ public class Palindrome {
    * @return whether or not the given string is a palindrome
    */
   static boolean isPalindrome(String str) {
-    return false;
-  }
+    return new StringBuilder(str).reverse().equals(str);
+ }
 }
